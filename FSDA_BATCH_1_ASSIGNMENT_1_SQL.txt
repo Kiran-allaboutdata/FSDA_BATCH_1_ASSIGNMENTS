@@ -1,0 +1,180 @@
+----TASK 1-----ASSIGNMENT1
+
+use win_fun;
+CREATE TABLE if not exists SHOPPING_HISTROR(
+PRODUCT VARCHAR(20) NOT NULL,
+QUANTITY INTEGER NOT NULL,
+UNIT_PRICCE INTEGER NOT NULL);
+
+SELECT * FROM  SHOPPING_HISTROR;
+
+INSERT INTO  SHOPPING_HISTROR VALUES 
+('MILK',3,10),
+('BREAD',7,3),
+('BREAD',5,2); 
+
+#------------------------------******TASK 1****** -------------------------
+SELECT PRODUCT,sum(QUANTITY  * UNIT_PRICCE)AS TOTAL_PRICE FROM  SHOPPING_HISTROR  GROUP BY PRODUCT;
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE if not exists PHONES(
+`NAME` VARCHAR(20) NOT NULL unique,
+PHONE_NO INTEGER NOT NULL unique);
+
+INSERT INTO  PHONES VALUES 
+('JACK',1234),
+('LEENA',3333),
+('MARK',9999),
+('ANNA',7582); 
+
+SELECT * FROM PHONES;
+select  * FROM CALLS_44;
+
+
+CREATE TABLE if not exists CALLS_44(
+ID INTEGER NOT NULL ,
+CALLER INTEGER NOT NULL ,
+CALLEE INTEGER NOT NULL ,
+DURATION INTEGER NOT NULL,
+UNIQUE (ID));
+
+INSERT INTO CALLS_44 VALUES 
+(25,1234,7582,8),
+(7,9999,7582,1),
+(18,9999,3333,4),
+(2,7582,3333,3),
+(3,3333,1234,1),
+(21,3333,1234,1);
+
+
+SELECT * FROM CALLS_44;
+
+
+#-----------------****SOLUTION****--------------------------
+select name from(
+select a.num, sum(a.dur)as tot_duration,b.name from
+(select caller as num,sum(duration) as dur
+from calls_44
+group by 1
+union all
+select callee,sum(duration) 
+from calls_44
+group by 1)a
+inner join phones b
+on a.num=b.PHONE_NO
+group by 1,3) as temp
+where tot_duration>=10
+ORDER BY NAME;
+
+------------------------------------------------------------------------------------------------------------------------------
+# 2.table
+
+CREATE TABLE PHONES_1(
+`NAME` VARCHAR(20) NOT NULL unique,
+PHONE_NO INTEGER NOT NULL unique);
+
+INSERT INTO  PHONES_1 VALUES 
+('JOHN',6356),
+('ADDISON',4315),
+('KATE',8003),
+('GINNY',9831);
+
+CREATE TABLE CALLS_11(
+ID INTEGER NOT NULL ,
+CALLER INTEGER NOT NULL ,
+CALLEE INTEGER NOT NULL ,
+DURATION INTEGER NOT NULL,
+UNIQUE (ID));
+
+INSERT INTO CALLS_11 VALUES 
+(65,8003,9831,7),
+(100,9831,8003,3),
+(145,4315,9831,18);
+
+SELECT * FROM PHONES_1;
+SELECT * FROM CALLS_11;
+
+select b.name from
+(select caller,sum(duration) as tot_dur from
+		(select caller,duration from calls_11
+union all
+		select callee,duration from calls_11) as temp2
+group by 1) as a
+left outer join phones_1 b
+on a.caller=b.phone_no
+where tot_dur>=10
+order by name;
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+#----------------******-task3(assignment 1)********-----------------------------------------------------
+
+---	Q.1----
+create table if not exists transcation1(
+amount int not null,
+`date` date not null);
+
+
+insert into transcation1 values (1000,"2020-01-06"),
+(-10,"2020-01-14"),
+(-75,"2020-01-20"),
+(-5,"2020-01-25"),
+(-4,"2020-01-29"),
+(2000,"2020-03-10"),
+(-75,"2020-03-12"),
+(-20,"2020-03-15"),
+(40,"2020-03-15"),
+(-50,"2020-03-17"),
+(200,"2020-10-10"),
+(-200,"2020-10-10");
+
+select* from transcation1;
+
+select sum(amount)-11*5 as balance from transcation1;
+
+--Q.2-------------------------------------------------------------
+create table transcation2(
+amount int not null,
+`date` date not null);
+
+insert into transcation2 values (1,"2020-06-29"),
+(35,"2020-02-20"),
+(-50,"2020-02-03"),
+(-1,"2020-02-26"),
+(-200,"2020-08-01"),
+(-44,"2020-02-07"),
+(-5,"2020-02-25"),
+(1,"2020-06-29"),
+(1,"2020-06-29"),
+(-100,"2020-12-29"),
+(-100,"2020-12-30"),
+(-100,"2020-12-31");
+
+select* from transcation2;
+
+#if we want to save this result  with  another table then write like this
+create table sum_trans as
+select sum(amount)-10*5 as balance from transcation2;
+
+select * from sum_trans;
+
+select sum(amount)-10*5 as balance from transcation2;
+
+----Q3----------------------------------------------------------------
+create table if not exists transcation(
+amount int not null,
+`date` date not null);
+
+select* from transcation;
+
+insert into transcation values (6000,"2020-04-03"),
+(5000,"2020-04-02"),
+(4000,"2020-04-01"),
+(3000,"2020-03-01"),
+(2000,"2020-02-01"),
+(1000,"2020-01-01");
+
+select sum(amount)-12*5 as balance from transcation;
+
