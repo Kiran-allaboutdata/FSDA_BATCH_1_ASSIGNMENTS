@@ -1,0 +1,38 @@
+------------------*****Advance Excel Assignment 4 ******---------------------------------------
+ 
+1. To use the ribbon commands, what menu and grouping of commands will you find the Insert and 
+Delete command?
+
+Answer:-- Click on home tab in ribbon then in grouping “cells” we will find Insert and Delete 
+command together.
+
+
+2. If you set a row height or column width to 0 (zero), what happens to the row and column?
+
+Answer:-- It will hide the column or row.
+
+
+3. Is there a need to change the height and width in a cell? Why?
+
+Answer:--  To fit the data. Excel by default provides 
+equal width and height with respect to columns and rows.
+When we enter a large data some data will not visible for that we need to change the height and width in a cell
+
+
+4. What is the keyboard shortcut to unhide rows?
+
+Answer:-- Crtl + Shift + 9
+
+
+5. How to hide rows containing blank cells?
+
+Answer:-- we can use the "Find and Select" feature and the "Hide" option in the "Cells" group on 
+the "Home" tab of the ribbon
+
+
+
+6. What are the steps to hide the duplicate values using conditional formatting in excel?
+
+Answer:--  To hide duplicates values,
+Select the data from where you want to delete duplicates values, go to data tab  and in 
+grouping “Data Tools” click on Remove Duplicates

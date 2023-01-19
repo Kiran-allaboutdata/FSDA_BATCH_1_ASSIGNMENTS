@@ -1,0 +1,50 @@
+---------------------******Advance Excel Assignment 5*****---------------------------------------------
+
+
+1. How many types of conditions are available in conditional formatting on Excel?
+
+Answer:-- Several conditional formatting are available:
+1. Cell Value: It allows you to apply formatting based on the value of the cell, such as applying a 
+different color to cells that contain a value above or below a certain threshold.
+2. Text: It allows you to apply formatting based on the specific text in the cell, such as applying red 
+color to cells that contain the work “urgent”
+3. Date: It allows you to apply formatting based on the date in cell, such as apply different colour 
+to cells which data falls in certain range
+4. Duplicate Values: Apply different colors on the cells which have duplicate or same values in 
+column
+5. Top/Bottom Rules: Allows to apply formatting to the top or bottom n items in a range, such as a 
+different color for top 10% of values in a range
+6. Data Bars: allows to display a data bar in cell that reflects the value of the cell relative to the 
+other values in the range
+7. Color Scales: Allows you to apply a color scale to the cells in a range, with the cells being shaded 
+based on their value relative to the other values in the range.
+
+
+2. How to insert border in Excel with Format Cells dialog?
+
+Answer:- Right click --> Format Cells --> Border Tab --> choose border -->  OK
+
+
+3. How to Format Numbers as Currency in Excel?
+Answer:--Right click--> format cells --. Number tab --> go to currency --> select format --> OK
+
+
+
+4. What are the steps to format numbers in Excel with the Percent style?
+
+Answer:-- Showing 2 ways,
+a. Right click on the cell, click Format cells, In Number Tab, click percentage and OK
+b. On ribbon , go to Home, in Number grouping, there is % icon, click on that
+
+
+5. What is a shortcut to merge two or more cells in excel?
+
+Answer:-- Click the first cell and press Shift while you click the last cell in the range you want to merge. 
+Important: Make sure only one of the cells in the range has data. Click Home > Merge & Center.
+
+
+6. How do you use text commands in Excel?
+
+Answer:- Select the column, or range where you'll be putting the values, then use CTRL+1 to bring up the 
+Format > Cells dialog and on the Number tab select Text
+
