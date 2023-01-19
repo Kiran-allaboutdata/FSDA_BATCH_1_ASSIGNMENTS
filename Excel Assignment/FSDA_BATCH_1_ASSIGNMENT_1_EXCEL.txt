@@ -1,0 +1,42 @@
+----------------------***** Excel Assignment 1 ******--------------------------------------------
+
+
+Q1. What do you mean by cells in an excel sheet?
+
+Answer:-- Cell is rows & columns in excel which is in rectangular shap boxes columns are A,B,C,D Format,
+1,2,3,4 Rows
+
+
+2. How can you restrict someone from copying a cell from your worksheet? 
+
+Answer:-- steps to protect / restrict someone from copying a cell from your worksheet
+Menu bar -> Review -> Protect sheet -> Pasword.-> enter password, 
+
+After this without pass noone can copying ur cell
+ 
+
+3. How to move or copy the worksheet into another workbook?
+
+Answer:-- Go to sheet --> right click, then “Move or Copy”. Select desired sheet and TO 
+Book menu: click the workbook that you want to move the sheet to
+
+
+4. Which key is used as a shortcut for opening a new window document?
+Answer:-- Ctrl + N 
+
+
+5. What are the things that we can notice after opening the Excel interface? 
+Answer:-- . Quick Access Toolbar
+  .Status bar
+  . Navigation bar
+  .Name Box
+  .formula Bar
+  .formula Quick menu
+  . Format ->painter
+  .cells ....and manymore things because excel is very easy and vast tool
+  
+
+6. When to use a relative cell reference in excel? 
+
+Answer:-- Relative cell reference should be used whenever you need to repeat the 
+same calculation across multiple rows or columns
