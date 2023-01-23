@@ -1,0 +1,66 @@
+-------------------------****** Power BI Assignment 3 *******-----------------------------------------------------
+
+
+
+Q. List and explain different PowerBi products?
+
+-->Power BI is a business analytics service provided by Microsoft that lets you visualize your data and share insights. It converts data from different sources to build interactive dashboards and Business Intelligence reports.
+
+Different PowerBI Products explained inline:
+.POWER BI DESKTOP: a Windows desktop application for data analysis and reports creation
+
+.POWER BI SERVICE: Online software as a Service, used to collaborate and distribute Power BI reports
+
+.POWER BI MOBILE: a native mobile app
+.POWER BI REPORT BUILDER:  a tool for creating paginated reports
+.POWER BI REPORT SERVER: an on-premises report server (available through Power BI Premium licensing)
+
+
+Q. What limitations of Excel, Microsoft solved by PowerBi?
+
+-->Excel vs Powerbi : Data Model -
+
+. Microsoft Excel is mainly used for simple analysis tasks on historical data only while Power BI deals with the simplification of real-time data obtained from disparate sources, apart from complex analysis of historical data.
+
+. BI vs Excel: Language Dependency
+
+Microsoft Excel works with the MDX language for querying the underlying Data Model, while for Power BI, the DAX language is used
+
+. Power BI vs Excel: Collaboration
+
+Power BI lets you share your dashboards and reports with other employees in just a few clicks. This is available for people looking for On-Premise Solutions or In-Cloud Solutions catering to enterprises and small businesses alike.
+Microsoft Excel, however, has limited scope for collaboration, integration, and a bunch of other functions and formats. Setting KPIs and organizing complex data structures is simpler in Microsoft Excel due to the presence of a rich set of mathematical formulas to help you along the way.
+
+. Power BI vs Excel: Data Security
+Microsoft Excel allows you to restrict access to a file, worksheet, or workbook. You can also lock the files to hide their visibility or give read-only access to prevent editing or modifications. This is all Microsoft Excel has to offer when it comes to Data Security. It does not have a robust, built-in security control, unlike Power BI. Power BI offers a rich assortment of measures to keep your customer data safe like:
+	-Row-Level Security Feature
+	-Role-Based Authentication
+	-Networking Security
+	-Risk Mitigation
+	-Session Monitoring
+	-Cloud-Based Security Provisions
+
+. Power BI vs Excel: Data Visualizations
+When it comes to data visualizations, Power BI trumps Microsoft Excel by its sheer ability to analyze a vast amount of data with great ease along with a wide range of charts like Tables, Area Charts, Doughnut Charts, Funnel Charts, etc.
+
+. Power BI vs Excel: Reporting and Dashboarding
+Microsoft Excel offers you a limited range of dashboards if you look at interactivity and the range of functions. It has a tabular data format that can help you visualize data with various chart formats. However, it is not an ideal tool for larger datasets. Power BI has a cohort of powerful features like easy formatting, natural language querying, resizing, editing, and filtering that make the reports easy to understand, and visually attractive, while helping you draw multi-faceted insights to guide the decision-making process. Power BI’s reports are highly dynamic and interactive.
+
+
+Q.	Explain PowerQuery?
+
+-->Power Query is a data transformation and data preparation engine. Power Query comes with a graphical interface for getting data from sources and a Power Query Editor for applying transformations. Because the engine is available in many products and services, the destination where the data will be stored depends on where Power Query was used. Using Power Query, you can perform the extract, transform, and load (ETL) processing of data
+
+
+Q.	Explain PowerMap?
+
+-->Power Map is much more mature in 3D Geo-Spatial visualization, you can have different layers of visualization (such as column chart and heat map, and region visualization). You can zoom into map on particular angle if you want to. You can have a play axis which is very important for story telling.
+
+
+Q.	How powerBi eliminated the need to host SharePoint Server on premises?
+
+-->PowerBI is a cloud technology for reporting as however it has also an on-premises solution for which we have PowerBI Report Server.
+PowerBI Reporting server is an instance of reporting services . Its an whole server hosting environment you setup on premises and you can have Powerbi reports in it . so basically it’s a centralized hosting environment which can have your interactive powerbi reports which eliminate the need to host sharepoint server on premises.
+
+
+Q. ⦁	Explain the updates done in Power Bi Service(power BI 2.0) as compared to older version ?

@@ -1,0 +1,125 @@
+------------------------------****** POWER BI ASSIGNMENT 2 *****-------------------------------------------
+
+Q. Explain the advantages of Natural Queries in Power Bi with an example?
+ 
+--> With the Natural Language Query, we can query our reports and get answers.
+ This is helpful for users who aren’t technically inclined since they can access insights easily with this feature.
+It is a translation mechanism that helps bridge the gap between technical and non-technical users who may not understand which database has the data, which field to use or how to create calculations to answer their questions.
+An example might be “How many customers made a purchase this month?” And the idea is that the tool would respond and give you answers and visualizations that answer that question or at least help you on the path to finding it.
+Even before we start typing, Q&A displays a new screen with suggestions to help us. We can start either from one of the suggested questions or type our own questions. Q&A supports a wide range of questions, including but not limited to:
+If we have sales dataset with us, we can ask-
+Ask natural questions- Which sales have the highest revenue?
+Use relative date filtering- Show me sales in the last year.
+Return only the top N- Top 10 products by sales.
+Provide a filter- Show me sales in the USA.
+Provide complex conditions- Show me sales where product category is Category 1 or Category 2.
+
+
+
+
+Q.2 Explain Web Front End (WFE) cluster from Power BI Service Architecture?
+ 
+-->Each Power BI deployment consists of two clusters – a Web Front End (WFE) cluster, and a Back-End cluster.
+The WFE cluster manages the initial connection and authentication process for Power BI, using AAD (Azure Active Directory) to authenticate clients and provide tokens for subsequent client connections to the Power BI service.
+The front-end cluster acts as a medium between the client and the on-cloud servers in the Power BI data flow diagram. After the initial connection and authentication using Azure Active Directory, the client can interact with the datasets located across the globe.
+
+
+Q.3 Explain Back End cluster from Power BI Service Architecture?
+ 
+-->The Back-End cluster is how authenticated clients interact with the Power BI service. The Back-End cluster manages visualizations, user dashboards, datasets, reports, data storage, data connections, data refresh, and other aspects of interacting with the Power BI service.
+
+What ASP.NET component does in Power BI Service Architecture?
+
+
+Compare Microsoft Excel and PowerBi Desktop on the following features:
+
+* Data import-
+You can import data from a text file into an existing worksheet in Excel. Click the cell where you want to put the data from the text file. On the Data tab, in the Get External Data group, click From Text. In the Import Data dialog box, locate and double-click the text file that you want to import, and click Import.
+
+With Power BI Desktop, you can easily import Excel workbooks that contain Power Query queries and Power Pivot models into Power BI Desktop. Power BI Desktop automatically creates reports and visualizations based on the Excel workbook. Once imported, you can continue to improve and refine those reports with Power BI Desktop, using the existing features and new features released with each Power BI Desktop monthly update.
+
+* Data Transformation-
+Power BI Power Query Editor can be used to edit or transform data files before they get loaded into the Power BI dashboard. The Query Editor serves as an intermediate data container that allows you to modify data by choosing columns and rows, pivoting and un pivoting columns, splitting columns and rows, etc.
+
+Power Pivot is an Excel add-in you can use to perform powerful data analysis and create sophisticated data models. With Power Pivot, you can mash up large volumes of data from various sources, perform information analysis rapidly, and share insights easily.
+
+
+* Modelling-
+Data Modeling is one of the features used to connect multiple data sources in BI tool using a relationship. A relationship defines how data sources are connected with each other and you can create interesting data visualizations on multiple data sources.
+With the modeling feature, you can build custom calculations on the existing tables and these columns can be directly presented into Power BI visualizations. This allows businesses to define new metrics and to perform custom calculations for those metrics. By clicking model tab we can create data modeling in Power BI. Power BI is ideal for building complex data models easily.
+
+Excel has the ability to work on simple and structured data model. A Data Model integrates the tables, enabling extensive analysis using PivotTables, Power Pivot, and Power View.
+
+* Reporting-
+Power BI helps to create beautiful, interactive, attractive and personalize reports.
+Excel creates simple and less attractive reports than Power BI
+
+* Server deployment-
+The Power BI Report Server does not have dashboards, but the SaaS version does.
+ Shared data sets are available in the SaaS, but not in the Report Server.
+The SaaS solution allows users to download and modify data in Excel, but the Power BI Report Server does not have this capability.
+Deployment pipelines enable creators to develop and test Power BI content in the Power BI service, before the content is consumed by users. The content types include reports, paginated reports, dashboards, datasets and data flows
+Convert Models-
+
+* Cost-
+The cost of Power BI depends on how many projects you need and the amount of power you’ll use to crunch and display your data. There are 4 Power BI subscriptions to choose from, including:
+Power BI Pro Free Trial
+Power BI Pro – $9.99 per user, per month
+Power BI Premium Per User – $20 per user, per month
+Power Bi Premium Per Capacity – $4,996 per capacity, per month
+Its free version also available.
+Excel is included in the Microsoft 365 Business Standard package and costs £9.40 per user per month. You also get a host of other software, including Outlook, Word, Teams and Exchange.
+
+
+
+
+Q. List 20 data sources supported by Power Bi desktop.
+-->
+* Data sources
+The Get Data dialog box organizes data types in the following categories:
+All
+File
+Database
+Power Platform
+Azure
+Online Services
+Other
+The All category includes all data connection types from all categories.
+
+* File data sources
+The File category provides the following data connections:
+Excel Workbook
+Text/CSV
+XML
+JSON
+
+* Database data sources
+The Database category provides the following data connections:
+SQL Server database
+Access database
+SQL Server Analysis Services database
+MySQL database
+
+* Power Platform Data Sources
+The Power Platform category provides the following data connections:
+Power BI datasets
+Power BI dataflows
+Microsoft Dataverse
+
+* Azure Data Sources
+The Azure category provides the following data connections (this is a shortened list, view the full list here):
+Azure SQL Database
+Azure Synapse Analytics (SQL DW)
+Azure Analysis Services database
+
+* Online Services Data Sources
+The Online Services category provides the following data connections (this is a shortened list, view the full list here):
+SharePoint Online List
+Microsoft Exchange Online
+Dynamics 365 (online)
+
+* Other Data Sources
+The Other category provides the following data connections (this is a shortened list, view the full list here):
+Web
+SharePoint list
+Active Directory
