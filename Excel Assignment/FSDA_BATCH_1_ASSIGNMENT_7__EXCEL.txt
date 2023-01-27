@@ -1,0 +1,87 @@
+---------------------------------****** Excel Assignment - 7 ******---------------------------------------------------
+
+Q. Using Insert Function, give examples of any function available in the
+ different dropdowns present in the function library ? 
+ 
+-->
+.AutoSum-In Microsoft Excel, the AutoSum feature allows you to quickly sum a range of cells by selecting a range 
+of cells and then clicking the AutoSum button in the Home tab of the ribbon.
+
+  * To use AutoSum:
+1. Select the cell below the range of cells that you want to sum. For example, if you want to sum cells A1 
+through A5, select cell A6.
+2. Click the AutoSum button in the Home tab of the ribbon. It looks like a Greek sigma symbol (Σ).
+3. Excel will automatically detect the range of cells that you want to sum and enter a formula in the 
+selected cell to add them up.
+4. Press Enter to complete the formula and see the result of the sum.
+
+	You can also use AutoSum to sum other functions, such as average, min, or max. To do this, select the 
+cells that you want to sum and then click the dropdown arrow on the AutoSum button. Choose the 
+function that you want to use from the list.
+
+	If Excel does not select the range of cells that you want to sum, you can manually select the range 
+before clicking the AutoSum button. Alternatively, you can type the formula manually by using the 
+SUM function. For example, to sum cells A1 through A5, you can type "=SUM(A1:A5)" in the selected 
+cell.
+
+
+Q. What are the different ways you can select columns and rows?
+
+--> There are several ways to select columns and rows in Microsoft Excel:
+1. Single column or row: To select a single column or row, click on the column letter or row number.
+2. Multiple columns or rows: To select multiple columns or rows, hold down the "Ctrl" key while 
+clicking on the column letters or row numbers.
+3. Contiguous columns or rows: To select contiguous (adjacent) columns or rows, hold down the 
+"Shift" key while clicking on the first and last column letters or row numbers.
+4. Non-contiguous columns or rows: To select non-contiguous (non-adjacent) columns or rows, hold 
+down the "Ctrl" key while clicking on the column letters or row numbers.
+5. Entire sheet: To select the entire sheet (all columns and rows), click the "Select All" button in the topleft corner of the sheet, or use the keyboard shortcut "Ctrl + A".
+6. Named ranges: To select a range of cells that has been given a name, click the "Name Box" in the 
+top-left corner of the sheet and type the name of the range.
+7. Using the mouse: To select a range of cells using the mouse, click and hold the mouse button on the 
+first cell, then drag the mouse to the last cell and release the button.
+8. Using the keyboard: To select a range of cells using the keyboard, use the arrow keys to move to the 
+first cell, hold down the "Shift" key, and then use the arrow keys to move to the last cell.
+
+
+Q. What is AutoFit and why do we use it?
+
+-->AutoFit is a feature in Microsoft Excel that allows you to automatically adjust the width or height of a 
+cell or a range of cells to fit the contents of the cell or range. The feature is useful when you have data 
+in a cell or range of cells that is too large to be displayed in the current width or height of the cells, or 
+when you want to adjust the size of the cells to better fit the data they contain.
+There are several ways to use AutoFit in Excel:
+To adjust the width of a cell or range of cells to fit the contents, select the cell or range, and then click 
+the "Format" tab in the ribbon. In the "Format" tab, click the "AutoFit Column Width" button. This will 
+adjust the width of the cells to fit the contents of the cells.
+To adjust the height of a cell or range of cells to fit the contents, select the cell or range, and then click 
+the "Format" tab in the ribbon. In the "Format" tab, click the "AutoFit Row Height" button. This will 
+adjust the height of the cells to fit the contents of the cells.
+To adjust the width and height of a cell or range of cells to fit the contents, select the cell or range, 
+and then right-click on the selection and choose "Format Cells" from the context menu. In the "Format 
+Cells" dialog box, click the "Alignment" tab, and then check the "Wrap text" checkbox. This will wrap 
+the text in the cells and adjust the width and height of the cells to fit the contents.
+
+
+Q. How can you insert new rows and columns into the existing table?
+
+--> To insert new rows or columns into an existing table in Excel, you can follow these steps:
+Select the cell where you want to insert the new row or column.
+Right-click on the selected cell and choose "Insert" from the context menu.
+In the Insert dialog box, choose either "Entire row" or "Entire column" to specify whether you want to 
+insert a new row or column.
+Click "OK" to insert the new row or column.
+How do you hide and unhide columns in excel
+To hide a column in Excel, right-click on the column letter at the top of the worksheet and select 
+"Hide" from the context menu. To unhide a column, right-click on any column letter and select 
+"Unhide" from the context menu. This will open the "Unhide Columns" dialog box, where you can 
+select the column or columns that you want to unhide. You can also use the "Format" dropdown in 
+the "Cells" group on the "Home" tab of the ribbon to hide and unhide columns. Simply select the 
+column or columns that you want to hide or unhide, and then click the "Hide & Unhide" button in the 
+"Format" dropdown.
+
+
+Q. How do you hide and unhide columns in excel?
+
+--> On the Home tab, in the Cells group, click Format. Do one of the following: Under Visibility, click Hide 
+& Unhide, and then click Unhide Rows or Unhide Columns
